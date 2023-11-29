@@ -1,4 +1,6 @@
  
 yolov3.weights
 Lab 3/raw_data/
-Lab 3/sentences/
+Lab 3/sentences_training/
+Lab 3/sentences_testing/
+Lab 3/raw_data_testing/
