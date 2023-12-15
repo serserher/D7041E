@@ -1,0 +1,59 @@
+First seminar - Group 19:
+- Presentation of the members
+- First article summary
+- Then they talk more about background of HDC and what their purposes are
+(not to substitute conventional computing but rather to complement it), and 
+the fact that there are two frameworks offered by HDC (computation and other one)
+- Overview of HDC/VSA with some typical characteristics (premises)
+- Use cases of HDC
+It's already been 10 minutes in so I do not know when they are going to talk
+about their own paper.
+
+Minute 13:
+- Second paper summary - their article proposes a method of encoding the semantic
+vectors ysing demarcator vectors, applicable in several VSA sectors.
+- Authors proposed a simple method to encode structure into semantic vectors using demarcator
+vectors
+- Explanation of demarcator vectors, purpose and functionality
+- They proceed tro talk about how to generate these kind of vectors
+- For practical applications and experiments theyu provide examples of orthographic similarity 
+search in real complex and binary vectors using the TASA, and they suaccesfullly retrieve orthographically
+related terms demonstrating the approach's effectiveness
+- They add a conclusions slide, we should do that
+
+Second semimar - Group 28
+- Contents: Closer look at the transformer and neural GPU (what tasks and computational powers), 
+Draw connections between their two papers (On the Turing Completeness of Modern Neural Network 
+Architectures is their paper), Turing completeness
+- Recap on what Turing completeness really means: Computational system that can compute every Turing-
+Computable function and simulate a universal Turing Machine. In simpler words, the ability of a 
+system to solve any computational problem
+- Their assigned paper yields results for turing completeness of both models that they evaluate
+(Neural GPU and Transformer)
+- In the main paper the also show how HDC/VSA is computationally universal by exemplifying how it 
+can emulate systems that are already proven to be Turing complete
+- basic explanation of the transformer architecture: Attention, parallelization can make it much faster
+- They present a proof of the turing completeness of the Transformer
+- They introduce the Neural GPU, which is an alternative architecture of the RNN. It mimics 
+parallelism of GPUs, and it is used to learn and execute algorithms.
+- They talk about the architecture of Neural GPUs which act as Convolutional Gated Recurrent Units
+- They show a proof of the Neural GPU to be turing complete as well with the sequence to sequence RNN simulation
+in the Neural GPU (as seq-seq RNN is turing complete already)- A neural GPU is turing complete and it does not
+need additional memory.
+- They talk about some future works that could be done mentioned by the authors.
+- They end with a summary and a connection within both papers given. They both talk about two ways of evaluating
+turing completeness, which is desirable for HDC/VSA's and already proved for Neural GPUs and Transformers
+
+
+Third seminar - group 7:
+- their paper's name is Encoding Sequential Information in Semantic Space Models: Comparing Holographic 
+Reduced Representation and Random Permutation
+- Introduction: Semantic Space Models, they speak about the beagle model which is a text processing model.
+- They quickly as fuck speak about beagle so i cannot understand well what it is but whatever, nevermind
+now they are speaking more about it in detail. there are two vectors for each word, a context and a lexical vectors
+- The beagle model apparently uses the circular convolution to create the lexical representation depending
+on when the words appear using a summation of ngrams of different sizes from the same sequence
+- They later talk about RPM (Random Permutation Model), a little too complex to note down here and pay attention
+- They compare both models: Beagle is more complex computationally speaking, for RPM calculations require less time
+- They run a couple of experiments to compare their performance, and RPM has the upperhand, in fact it's one 
+of the conclussions that RPM works better
